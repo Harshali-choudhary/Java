@@ -1,2 +1,0 @@
-module classroom_teacher {
-}
