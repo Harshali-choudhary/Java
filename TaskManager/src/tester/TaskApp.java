@@ -51,6 +51,11 @@ public class TaskApp {
 					break;
 				case 7:
 					Collections.sort(tasklist,new SortedTask());
+					System.out.println("Sorted list of tasks : ");
+					for(Task t1:tasklist)
+					{
+						System.out.println(t1);
+					}
 					break;
 				case 0:
 					System.out.println("Thank you visit again ");
